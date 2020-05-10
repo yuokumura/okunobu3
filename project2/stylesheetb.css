@@ -1,0 +1,181 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+div{
+  display: block;
+}
+body{
+  max-width: 100%;
+}
+img{
+  display: block;
+}
+.img-content{
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+}
+.background{
+  background-color: rgb(79, 255, 206);
+}
+.flex{
+  display: flex;
+}
+.color-white{
+  color: white;
+}
+.flont-main{
+  width: 100%;
+  height: auto;
+
+  background-color: rgb(14, 66, 103);
+}
+.flont-item-container{
+  display: flex;
+
+  margin: 0px 200px;
+}
+.flont-message{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: white;
+}
+.flont-message h1{
+  width: 100%;
+
+  font-size: 50px;
+}
+.flont-message p{
+  width: 80%;
+  padding: 0;
+}
+.details-list-wrapper{
+  height: auto;
+  margin: 200px;
+}
+
+.details-list-container{
+  width: 100%;
+
+  background-color: rgb(241, 246, 237);
+}
+.list-top-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 50px;
+
+  background-color: rgb(135, 24, 187);
+}
+.list-container{
+  display: flex;
+  justify-content: space-between;
+
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container-icon{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.h3{
+  display: inline-block;
+}
+.list-box1{
+  flex:1;
+
+  padding:10px;
+
+}
+.list-box2{
+flex:1;
+
+  padding:10px;
+
+  border-left: 1px solid;
+}
+.list-box3{
+flex:1;
+
+  padding: 10px;
+
+  border-left: 1px solid;
+}
+ul{
+  padding-left: 0;
+}
+li{
+  padding: 10px 0px;
+
+  list-style: none;
+
+}
+.details-button{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  height: 200px;
+
+  border-top: 1px solid;
+}.main-button{
+  width: 150px;
+  height: 60px;
+
+  color: white;
+  background-color: black;
+
+  font-size: 20px;
+}
+.details-icom-button{
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+.container-wrapper{
+  justify-content: center;
+
+  width: auto;
+  height: 100%;
+  margin: 200px;
+  padding:0;
+}
+.container-wrapper-reverse{
+  justify-content: center;
+  flex-direction: row-reverse;
+
+  width: auto;
+  height: 100%;
+  margin: 200px;
+  padding:0;
+}
+.container-list{
+  justify-content: center;
+
+  height: 600px;
+}
+.container-list-sub{
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 80%;
+  height: 100%;
+}
+.container-list-sub h2{
+  margin-bottom: 80px;
+}
+.container-list-sub p{
+  margin-bottom: 80px;
+}
