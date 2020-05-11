@@ -2,6 +2,8 @@
   box-sizing:border-box;
   margin: 0;
   padding: 0;
+
+  all: none;
 }
 div{
   display: block;
@@ -29,7 +31,7 @@ img{
 }
 .flont-main{
   width: 100%;
-  height: auto;
+  height: 600px;
 
   background-color: rgb(14, 66, 103);
 }
@@ -41,18 +43,34 @@ img{
 .flont-message{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
+  width: auto;
+  height: 600px;
 
   color: white;
 }
+.message-container1{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.message-container2{
+  flex: 1;
+}
 .flont-message h1{
-  width: 100%;
+  margin-top: 30px;
 
-  font-size: 50px;
+  transform: scale(1,2);
+
+  font-size: 40px;
 }
 .flont-message p{
-  width: 80%;
   padding: 0;
+}
+.img-top{
+  width: auto;
+  height: 100%;
 }
 .details-list-wrapper{
   height: auto;
@@ -113,6 +131,9 @@ ul{
   padding-left: 0;
 }
 li{
+  list-style: none;
+}
+.details-list li{
   padding: 10px 0px;
 
   list-style: none;
@@ -129,13 +150,13 @@ li{
 
   border-top: 1px solid;
 }.main-button{
-  width: 150px;
+  width: 200px;
   height: 60px;
 
   color: white;
   background-color: black;
 
-  font-size: 20px;
+  font-size: 25px;
 }
 .details-icom-button{
   display: flex;
@@ -152,8 +173,8 @@ li{
   padding:0;
 }
 .container-wrapper-reverse{
-  justify-content: center;
   flex-direction: row-reverse;
+  justify-content: center;
 
   width: auto;
   height: 100%;
@@ -175,7 +196,97 @@ li{
 }
 .container-list-sub h2{
   margin-bottom: 80px;
+
+  font-size: 30px;
 }
 .container-list-sub p{
   margin-bottom: 80px;
+}
+.end-warpper{
+  width: 100%;
+  height: 600px;
+
+  background-color: rgb(74, 0, 255);
+}
+.end-wapper-box{
+  display: flex;
+
+  width: auto;
+  height: 100%;
+  margin-left: 200px;
+}
+.end-warpper-list{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  height: 100%;
+}
+.end-warpper-list h1{
+  padding-top: 70px;
+
+  transform: scale(1,1.5);
+
+  color: white;
+
+  font-size: 40px;
+}
+.end-warpper-list p{
+  color: white;
+
+  font-size: 20px;
+}
+.end-warpper-list h1,p,form{
+  flex: 1;
+
+  width: auto;
+  height: auto;
+}
+.end-warpper-list-button{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+
+  width: auto;
+  height: auto;
+}
+.end-button{
+  width: 45%;
+  height: 70px;
+  margin: 5px;
+
+  color: white;
+  background-color: black;
+}
+.button-sub{
+  padding-right: 20px:
+}
+.button-logo{
+  font-size: 20px;
+}
+.img-box{
+  display: flex;
+  flex: 2;
+  justify-content: flex-end;
+
+  width: auto;
+  height: 600px;
+}
+.FAQ-container{
+  width: 100%;
+  height: 600px;
+  margin-top: 100px;
+
+}
+footer{
+  width: 100%;
+  height: 800px;
+  margin-top: 200px;
+
+  color: white;
+  background-color: black;
+}
+.list-top{
+  font-size: 20px;
 }
